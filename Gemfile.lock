@@ -26,6 +26,20 @@ GIT
       activemodel (>= 3.0)
 
 GIT
+  remote: git://github.com/xrl/rack-mongrel2.git
+  revision: eb278b61689a43aa6a72c4254001139d76b7f7ab
+  specs:
+    khi-rack-mongrel2 (1.0.3)
+      zmq (~> 2.1.4)
+
+GIT
+  remote: git://github.com/zeromq/rbzmq.git
+  revision: 9e080b6ba26e02904ca8fb2c88dd75cf9193706f
+  branch: zeromq3
+  specs:
+    zmq (2.1.4)
+
+GIT
   remote: git://github.com/zhangyuan/vestal_versions
   revision: 0ea75ec4e269b5a9e609639919ade0f36381a446
   specs:
@@ -497,6 +511,7 @@ DEPENDENCIES
   jasminerice
   jquery-rails
   jshint_on_rails
+  khi-rack-mongrel2!
   librarian (>= 0.0.25)
   message_bus!
   minitest
@@ -542,3 +557,4 @@ DEPENDENCIES
   turbo-sprockets-rails3
   uglifier
   vestal_versions!
+  zmq!

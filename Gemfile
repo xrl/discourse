@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby "2.0.0"
+
 gem 'active_model_serializers', git: 'git://github.com/rails-api/active_model_serializers.git'
 gem 'ember-rails', git: 'git://github.com/emberjs/ember-rails.git' # so we get the pre version
 gem 'vestal_versions', git: 'git://github.com/zhangyuan/vestal_versions'
@@ -27,6 +29,7 @@ gem 'hiredis'
 # sudo apt-get install -y advancecomp gifsicle jpegoptim libjpeg-progs optipng pngcrush
 gem 'image_optim'
 gem 'jquery-rails'
+gem 'khi-rack-mongrel2', :git => 'git://github.com/xrl/rack-mongrel2.git'
 gem 'minitest'
 gem 'multi_json'
 gem 'mustache'
@@ -39,6 +42,7 @@ gem "omniauth-twitter"
 gem "omniauth-github"
 gem "omniauth-browserid", :git => "git://github.com/callahad/omniauth-browserid.git", :branch => "observer_api"
 gem 'oj'
+gem 'zmq', :git => "git://github.com/zeromq/rbzmq.git", :branch => 'zeromq3'
 gem 'pg'
 gem 'rails'
 gem 'rake'
