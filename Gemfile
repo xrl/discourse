@@ -29,7 +29,7 @@ gem 'hiredis'
 # sudo apt-get install -y advancecomp gifsicle jpegoptim libjpeg-progs optipng pngcrush
 gem 'image_optim'
 gem 'jquery-rails'
-gem 'khi-rack-mongrel2', :git => 'git://github.com/xrl/rack-mongrel2.git'
+gem 'khi-rack-mongrel2', :git => 'git://github.com/xrl/rack-mongrel2.git', :branch => "ffi-rzmq"
 gem 'minitest'
 gem 'multi_json'
 gem 'mustache'
@@ -42,7 +42,8 @@ gem "omniauth-twitter"
 gem "omniauth-github"
 gem "omniauth-browserid", :git => "git://github.com/callahad/omniauth-browserid.git", :branch => "observer_api"
 gem 'oj'
-gem 'zmq', :git => "git://github.com/zeromq/rbzmq.git", :branch => 'zeromq3'
+# gem 'zmq', :git => "git://github.com/zeromq/rbzmq.git", :branch => 'zeromq3'
+gem 'ffi-rzmq'
 gem 'pg'
 gem 'rails'
 gem 'rake'
