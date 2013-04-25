@@ -29,7 +29,7 @@ gem 'hiredis'
 # sudo apt-get install -y advancecomp gifsicle jpegoptim libjpeg-progs optipng pngcrush
 gem 'image_optim'
 gem 'jquery-rails'
-gem 'khi-rack-mongrel2', :git => 'git://github.com/xrl/rack-mongrel2.git', :branch => "ffi-rzmq"
+gem 'rack-mongrel2', :git => 'git://github.com/xrl/rack-mongrel2.git', :branch => "ffi-rzmq"
 gem 'minitest'
 gem 'multi_json'
 gem 'mustache'

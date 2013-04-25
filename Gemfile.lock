@@ -27,10 +27,10 @@ GIT
 
 GIT
   remote: git://github.com/xrl/rack-mongrel2.git
-  revision: 819707711ae3c355ef5af38b2730ab33bf786f33
+  revision: 901387636b513c39694905fc3a626acc1dec3b2e
   branch: ffi-rzmq
   specs:
-    khi-rack-mongrel2 (1.0.3)
+    rack-mongrel2 (1.0.3)
       ffi-rzmq (~> 1.0.1)
 
 GIT
@@ -508,7 +508,6 @@ DEPENDENCIES
   jasminerice
   jquery-rails
   jshint_on_rails
-  khi-rack-mongrel2!
   librarian (>= 0.0.25)
   message_bus!
   minitest
@@ -527,6 +526,7 @@ DEPENDENCIES
   pg
   pry-rails
   rack-mini-profiler
+  rack-mongrel2!
   rails
   rails_multisite!
   rake
